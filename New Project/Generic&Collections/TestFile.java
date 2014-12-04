@@ -1,4 +1,6 @@
-public class TestFile{
+import java.io.Serializable;
+
+public class TestFile implements Serializable{
     
     public static void main(String... args) {
     Integer i1 = 1000;
@@ -9,9 +11,9 @@ public class TestFile{
     if(i1.equals(i2)) System.out.println("meaningfully equal");
     int i3= 10;
     int i4 =10;
-    if(i1 == i2)  System.out.println("Same objects i3 and i4");
-    if(i1 != i2)  System.out.println("different objects i3 and i4");
-    if(i1.equals(i2)) System.out.println("meaningfully equal i3 and i4");
+    if(i3 == i4)  System.out.println("Same objects i3 and i4");
+    if(i3 != i4)  System.out.println("different objects i3 and i4");
+    //if(i3.equals(i4)) System.out.println("meaningfully equal i3 and i4");
     
     }
     
